@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCash - Banking, Payments, and Financial Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("https://via.placeholder.com/1200x600/0066cc/ffffff?text=GCash+Banking");
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .header {
+        background-color: var(--gcash-blue);
+      }
+      
+      .features-grid .feature-card {
+        border: 1px solid var(--gcash-border);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .features-grid .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .cta {
+        background-color: var(--gcash-light-gray);
+      }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-text">GCASH</div>
+                    <div class="logo-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Personal</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline">Sign In</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Banking Made Simple</h1>
+            <p>Secure, convenient banking with tools to help you manage your finances and reach your goals.</p>
+            <a href="signup.html" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose GCash</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Banking</h3>
+                    <p>Advanced security features to protect your accounts and personal information 24/7.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Banking</h3>
+                    <p>Manage your accounts, deposit checks, and send money from anywhere with our mobile app.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Financial Tools</h3>
+                    <p>Budgeting tools, spending analysis, and personalized insights to help you manage your money.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to take control of your finances?</h2>
+            <p>Join millions of customers who trust GCash for their banking needs. Open an account today and experience banking designed for you.</p>
+            <a href="signup.html" class="btn btn-primary">Open an Account</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">GCash Account</a></li>
+                        <li><a href="#">GSave</a></li>
+                        <li><a href="#">GCredit</a></li>
+                        <li><a href="#">GInvest</a></li>
+                        <li><a href="#">GInsure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Financial Education</a></li>
+                        <li><a href="#">Money Management</a></li>
+                        <li><a href="#">Security Center</a></li>
+                        <li><a href="#">Mobile Banking</a></li>
+                        <li><a href="#">Online Banking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Find a Branch</a></li>
+                        <li><a href="#">Schedule an Appointment</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About GCash</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Corporate Social Responsibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> GCash Corporation. All rights reserved.</p>
+                <p>GCash is regulated by the Bangko Sentral ng Pilipinas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
