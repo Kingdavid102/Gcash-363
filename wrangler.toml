@@ -1,0 +1,6 @@
+name = "my-site"
+main = "index.js"
+compatibility_date = "2025-07-08"
+
+[assets]
+directory = "./"
